@@ -130,6 +130,12 @@ nav a{
   }
 
 
+  .mobile-menu.active .line4 {
+    opacity: 0;
+  }
+  
+
+
 
 
 
