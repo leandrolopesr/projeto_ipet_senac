@@ -119,6 +119,7 @@ nav a{
   
   .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
+    background-color: red;
   }
   
   .mobile-menu.active .line2 {
@@ -132,6 +133,7 @@ nav a{
 
   .mobile-menu.active .line4 {
     opacity: 0;
+    background-color: red;
   }
   
 
