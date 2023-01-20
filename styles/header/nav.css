@@ -1,0 +1,143 @@
+nav a{
+    position: relative;
+    color: #613387;
+    font-weight: bold;
+   
+}
+
+
+  nav .itensnav::after {
+    display: inline-flex;
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #613387;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 22px;
+    transition: 0.5s ease-in-out;
+  
+  }
+  
+  nav .itensnav:hover::after {
+   
+    width: 100%;
+  }
+
+  .img_logo{
+    margin-left: 15px;
+  }
+
+  
+  nav {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFFFFF;
+    height: 13vh;
+  }
+  
+  
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background:  #613387;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 999px) {
+
+   
+    nav{
+        justify-content: space-between;
+        display: flex;
+        
+    }
+
+    .img_logo{
+        margin-left: 15px;
+    }
+
+    .nav-list {
+      z-index: 1;
+      margin-top: 30px;
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 100vw;
+      height: 92vh;
+      background: #ffffff;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+      margin-right: 15px;
+    }
+  }
+  
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+    background-color: red;
+  }
+  
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+
+  .mobile-menu.active .line4 {
+    opacity: 0;
+    background-color: red;
+  }
+  
+
+
+
+
+
