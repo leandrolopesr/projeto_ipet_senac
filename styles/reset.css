@@ -1,6 +1,8 @@
 @import url('./header/header.css');
 @import url('./header/nav.css');
-
+@import url('./main/quero_adotar/quero_adotar.css');
+@import url('./main/quero_adotar/card.css');
+@import url('./main/quero_adotar/modal.css');
 
 * {
     margin: 0;

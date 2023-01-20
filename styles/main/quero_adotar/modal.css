@@ -1,0 +1,97 @@
+
+.button-modal{
+  margin-top: 0.6rem;
+  margin-left: 1.8rem;
+  padding: 0.6rem 3rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  opacity: 0.9;
+  font-size: 1rem;
+  background-color: #9A41A6;
+  color: white;
+}
+
+.button-modal2{
+    margin-top: 15%;
+    margin-left: 3rem;
+    padding: 0.6rem 3rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 1rem;
+    background-color: #9A41A6;
+    color: white;
+}
+
+.button-modal2 a{
+    text-decoration: none;
+}
+
+.modal {
+    display: none; /* escondido por padrão */
+    position: fixed; /* fixo na tela */
+    z-index: 1; /* fica acima de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* ocupa toda a largura da tela */
+    height: 100%; /* ocupa toda a altura da tela */
+    overflow: auto; /* scroll se o conteúdo for maior */
+    background-color: rgba(0,0,0,0.4); /* cor de fundo semi-transparente */
+    padding-left: 25%;
+    
+  }
+  
+  .modal-content {
+    background-color: #E8ECF4; /* cor de fundo branca */
+    margin: 15% auto; /* margem centralizada */
+    padding: 20px; /* espaçamento interno */
+    width: 50%; /* largura máxima */
+    border-radius: 15px;
+    display: flex;
+    float: left;
+    text-decoration: none;
+
+  }
+  .modal-content h1 {
+    font-size: 30pt;
+    color:#613387;
+    padding-left: 18%;
+    padding-bottom: 5%;
+    margin-top: 25%;
+  }
+
+  .modal-content p {
+    color: #737280;
+    font-size: 10pt;
+    padding-left: 18%;
+  }
+
+  .modal-content .icon{
+    width: 5%;
+    padding-top: 5%;
+    padding-left: 18%;
+  }
+
+  .modal-content a{
+    color: white;
+  }
+
+  /*.modal-content h1, .modal-content p, .modal-content .icon{
+    margin-top: 10%;
+  }*/
+  
+  .close-modal {
+    color: #aaa; /* cor cinza */
+    float: right; /* flutua para a direita */
+    font-size: 28px; /* tamanho da fonte */
+    font-weight: bold; /* negrito */
+  }
+  
+  .close-modal:hover, .close-modal:focus {
+    color: black; /* cor preta ao passar o mouse */
+    text-decoration: none; /* sem sublinhado */
+    cursor: pointer; /* cursor de mãozinha */
+  }
+
