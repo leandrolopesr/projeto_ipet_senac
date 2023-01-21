@@ -3,6 +3,7 @@
 @import url('./main/quero_adotar/quero_adotar.css');
 @import url('./main/quero_adotar/card.css');
 @import url('./main/quero_adotar/modal.css');
+@import url('./main/help/help.css');
 
 * {
     margin: 0;
