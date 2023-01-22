@@ -1,0 +1,18 @@
+.dogs_top{
+    position: absolute;
+    top: 23.5%;
+   
+}
+
+.dogs_right{
+    position: absolute;
+    right: 13.9%;
+    
+}
+
+.cat_left{
+    position: absolute;
+    left: 13%;
+    top: 110%;
+   
+}

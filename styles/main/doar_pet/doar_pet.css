@@ -1,52 +1,55 @@
 .text, select {
-    width: 150%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-    box-sizing: border-box;
-  }
+  width: 600px;
+  max-width: 80%;
+  padding: 12px 20px;
+  margin: 8px 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
 
 .button3 {
-    width: 50%;
-    background-color: #9A41A6;
-    color: white;
-    padding: 8px 25px;
-    margin-top: 8px;
-    margin-left: 26%;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-  }
-  
-  .file {
-    padding: 14px 20px;
-  }
+  width: 50%;
+  background-color: #9A41A6;
+  color: white;
+  padding: 8px 25px;
+  margin-top: 8px;
+  margin-left: 26%;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16pt;
+}
 
-  .caixa1{
-    width: 40%;
-    padding: 15px;
-    color: #613387;
-    font-size: 18pt;
-  }
-  
-  .doar {
-    border-radius: 15px;
-    background-color: #E8ECF4;
-    padding: 20px;
-    width: 50%;
-    max-width: 90%;
-    margin-left: 26%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-  }
+.file {
+  padding: 14px 20px;
+}
 
-  .doar h1{
-    font-size: 1.8em;
-    padding-bottom: 2%;
-    padding-left: 26%;
-    color: #613387;
-  }
+.caixa1{
+  width: 40%;
+  padding: 15px;
+  color: #613387;
+  font-size: 18pt;
 
-  
+}
+
+.doar {
+  border-radius: 15px;
+  background-color: #E8ECF4;
+  padding: 20px;
+  width: 50%;
+  max-width: 90%;
+  margin-left: 26%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+}
+
+.doar h1{
+  font-size: 1.8em;
+  padding-bottom: 2%;
+  padding-left: 22%;
+  color: #613387;
+}
+

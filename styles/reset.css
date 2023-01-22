@@ -4,6 +4,8 @@
 @import url('./main/quero_adotar/card.css');
 @import url('./main/quero_adotar/modal.css');
 @import url('./main/doar_pet/doar_pet.css');
+@import url('./main/help/help.css');
+@import url('./main/help/help_img.css');
 
 * {
     margin: 0;
