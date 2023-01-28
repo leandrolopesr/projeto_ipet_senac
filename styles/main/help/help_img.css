@@ -1,18 +1,24 @@
 .dogs_top{
     position: absolute;
-    top: 23.5%;
+    top: 122px;
    
 }
 
 .dogs_right{
     position: absolute;
-    right: 13.9%;
+    left: 74.9%;
+   
+    
     
 }
 
 .cat_left{
     position: absolute;
-    left: 13%;
-    top: 110%;
+    right: 75.9%;
+    top: 800px
    
+}
+
+.dogs_bottom{
+    padding-left: 8px;
 }
