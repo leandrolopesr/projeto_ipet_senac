@@ -1,3 +1,5 @@
+/* inicio das definições das imagens de pets  da div */ 
+
 .dogs_top{
     position: absolute;
     top: 122px;
@@ -6,7 +8,7 @@
 
 .dogs_right{
     position: absolute;
-    left: 74.9%;
+    left: 74.5%;
    
     
     
@@ -20,5 +22,8 @@
 }
 
 .dogs_bottom{
-    padding-left: 8px;
+ width: 100%;
 }
+
+
+

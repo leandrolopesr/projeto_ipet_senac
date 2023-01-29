@@ -1,17 +1,19 @@
 
+    
 .container{
-  width: 100vw;  
+
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #cecbd1;
+  background-color: #613387;
 
  
 
 }
 
 .help {
-    
+  
     background-color: #ffffff;
     width: 50%;
     border-radius: 15px;
@@ -56,3 +58,7 @@
     color: #737280;
     margin-bottom: 20px;
 }
+
+
+
+  

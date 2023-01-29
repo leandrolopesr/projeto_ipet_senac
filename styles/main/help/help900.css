@@ -1,0 +1,92 @@
+@media (min-width: 570px) and (max-width: 900px){
+
+    .dog_eat{
+        display: none;
+    }
+    
+    
+    .dogs_right{
+        display: none;
+            
+     }
+     
+     .cat_left{
+         display: none;
+        
+     }
+
+     .dog_osso{
+        width: 80%;
+     }
+
+       
+    }
+
+    @media (max-width: 569px){
+
+        .dog_eat{
+            display: none;
+        }
+        
+        .dogs_right{
+            display: none;
+                
+         }
+         
+         .cat_left{
+             display: none;
+            
+         }
+
+         .dogs_top{
+            display: none;
+         }
+    
+         .dog_osso{
+            width: 100%;
+         }
+
+         .dogs_bottom{
+            display: none;
+         }
+
+         .help{
+            width: 90%;
+           
+        
+        }
+
+        
+
+        .title_help{
+    
+            color: #613387;
+            font-size: 1.2em;
+           
+        }
+        
+        
+        .paragraf{
+            color: #737280;
+            font: 12px;
+          
+        }
+        
+        
+        
+        .img_retangule{
+        
+          display: none;
+        
+        }
+        
+        .paragraf2{
+            color: #737280;
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+        
+        
+    
+
+    }
