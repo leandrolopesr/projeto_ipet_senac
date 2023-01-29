@@ -22,7 +22,7 @@
        
     }
 
-    @media (max-width: 569px){
+   @media (max-width: 569px){
 
         .dog_eat{
             display: none;
@@ -43,17 +43,21 @@
          }
     
          .dog_osso{
-            width: 100%;
+            width: 90%;
          }
 
-         .dogs_bottom{
-            display: none;
-         }
+        
 
          .help{
-            width: 90%;
+            width: 70%;
            
         
+        }
+
+        .container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
         }
 
         
@@ -61,28 +65,24 @@
         .title_help{
     
             color: #613387;
-            font-size: 1.2em;
+            font-size: 1.4em;
            
         }
         
         
         .paragraf{
             color: #737280;
-            font: 12px;
+           
           
         }
         
         
         
-        .img_retangule{
         
-          display: none;
-        
-        }
         
         .paragraf2{
             color: #737280;
-            font-size: 12px;
+           
             margin-bottom: 20px;
         }
         
