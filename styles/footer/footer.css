@@ -33,19 +33,20 @@ footer{
     margin: 1rem 0 3rem 0;
 }
 .socials li{
-    margin: 0 10px;
+    margin: 0 30px;
 }
 .socials a{
     text-decoration: none;
-    color: #fff;
+    color: black;
+
 }
 .socials a i{
-    font-size: 1.1rem;
+    font-size: 2.1rem;
     transition: color .4s ease;
 
 }
 .socials a:hover i{
-    color: red;
+    color: #f2ebeb;
 }
 
 .footer-bottom{
