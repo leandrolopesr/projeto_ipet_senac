@@ -2,13 +2,18 @@
 @import url('./header/nav.css');
 @import url('./main/quero_adotar/quero_adotar.css');
 @import url('./main/quero_adotar/card.css');
+@import url('./main/quero_adotar/card_tablet.css');
+@import url('./main/quero_adotar/card_mobile.css');
 @import url('./main/quero_adotar/modal.css');
+@import url('./main/quero_adotar/modal_tablet.css');
+@import url('./main/quero_adotar/modal_mobile.css');
 @import url('./main/doar_pet/doar_pet.css');
+@import url('./main/doar_pet/doar_pet_tablet.css');
+@import url('./main/doar_pet/doar_pet_mobile.css');
 @import url('./main/help/help.css');
 @import url('./main/help/help_img.css');
 @import url('./main/main_carrosel/main.css');
 @import url('./footer/footer.css');
-@import url('./main/help/help900.css');
 
 * {
     margin: 0;

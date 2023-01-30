@@ -1,4 +1,45 @@
-.position{
-    display: inline-flex;
-   
+@media screen and (min-width:1024px) { 
+
+    .position{
+        display: flex;
+        
+    }
+
+    .pai{
+        display: flex;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 491px) {
+
+    .position{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .pai{
+
+        width: 100%;
+    }
+
+    
+}
+
+@media screen and (max-width:490px) {
+
+    .position {
+
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .pai{
+
+        width: 100%;
+    }
+
+
 }

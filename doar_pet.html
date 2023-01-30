@@ -35,73 +35,64 @@
       </header>
       <main>
 
-        <main>
+        <section>
 
-            <section>
-    
-                
-                <div class="doar">
-    
-                    <h1>Coloque o Pet para Doação</h1>
-    
-                    
-                    <table>
-                        <form action="/action_page.php" >
-                            <tr>
-                            <td><label for="Aniname">Nome do Pet:  </label></td>
-                            <td><input class="text" type="text" id="Aniname" name="Aniname" placeholder="Nome do seu Pet.."></td>
-                            </tr>
-    
-                            <tr>
-                            <td><label for="lname">Sexo:  </label></td>
-                            <td><input class="text" type="text" id="sexo" name="sexo" placeholder="Macho ou Fêmea?"></td>
-                            </tr>
-    
-                            <tr>
-                            <td><label for="lname">Idade:  </label></td>
-                            <td><input class="text" type="text" id="age" name="age" placeholder="Qual a idade do Pet?"></td>
-                            </tr>
-    
-                            <tr>
-                            <td><label for="lname">Qual seu Pet?  </label></td>
-                            <td><input class="text" type="text" id="type" name="type" placeholder="Ex: Cachorro, Gato e etc.."></td>
-                            </tr>
-    
-                            <tr>
-                            <td><label for="lname">Endereço:  </label></td>
-                            <td><input class="text" type="text" id="endereco" name="endereco" placeholder="Endereço do Pet.."></td>
-                            </tr>    
-    
-                            <tr>
-                            <td><label for="lname">Nome do Doador:  </label></td>
-                            <td><input class="text" type="text" id="doadorname" name="doadorname" placeholder="Seu nome.."></td>
-                            </tr>
-    
-                            <tr>
-                            <td><label for="lname">Telefone:  </label></td>
-                            <td><input class="text" type="text" id="cell" name="cell" placeholder="Telefone para contato.."></td>
-                            </tr>
-                            
-                            <tr>
-                            <td><label for="lname">Fotos do Pet:</label></td>
-                            <td><input class="file" type="file" id="img" name="img"></td>
-                            </tr>
-    
-    
-                                
-                                
-                            
-                        </form>   
-                         
-                            
-                    </table>
-                    <input class="button3" type="button" id="cadastrar" name="cadastrar" value="Cadastrar">
-                </div>
-    
-            </section>
-    
-          </main>
-    
+            
+            <div class="doar">
+
+                <h1>Coloque o Pet para Doação</h1>
+
+                <form action="../projeto_ipet_senac-master/PHP/model/cadastro.php" method="post" enctype="multipart/form-data" > 
+                  <table class="centralizar">
+                     
+                          <tr>
+                          <td><label for="Aniname">Nome do Pet:  </label></td>
+                          <td><input class="text" type="text" id="nome_ani" name="nome_ani" placeholder="Nome do seu Pet.."></td>
+                          </tr>
+  
+                          <tr>
+                          <td><label for="lname">Sexo:  </label></td>
+                          <td><input class="text" type="text" id="sexo" name="sexo" placeholder="Macho ou Fêmea?"></td>
+                          </tr>
+  
+                          <tr>
+                          <td><label for="lname">Idade:  </label></td>
+                          <td><input class="text" type="text" id="idade_ani" name="idade_ani" placeholder="Qual a idade do Pet?"></td>
+                          </tr>
+  
+                          <tr>
+                          <td><label for="lname">Qual seu Pet?  </label></td>
+                          <td><input class="text" type="text" id="tipo_ani" name="tipo_ani" placeholder="Ex: Cachorro, Gato e etc.."></td>
+                          </tr>
+  
+                          <tr>
+                          <td><label for="lname">Endereço:  </label></td>
+                          <td><input class="text" type="text" id="address" name="address" placeholder="Endereço do Pet.."></td>
+                          </tr>    
+  
+                          <tr>
+                          <td><label for="lname">Nome do Doador:  </label></td>
+                          <td><input class="text" type="text" id="nome_dono" name="nome_dono" placeholder="Seu nome.."></td>
+                          </tr>
+  
+                          <tr>
+                          <td><label for="lname">Telefone:  </label></td>
+                          <td><input class="text" type="text" id="tel" name="tel" placeholder="Telefone para contato.."></td>
+                          </tr>
+                          
+                          <tr>
+                          <td><label for="lname">Fotos do Pet:</label></td>
+                          <td><input class="file" type="file" id="img" name="nome_img"></td>
+                          </tr>                                                                                
+                        
+                       
+                          
+                  </table>
+                    <input class="button3" type="submit" id="cadastrar" name="cadastrar" value="Cadastrar">
+                </form> 
+            </div>
+
+        </section>
 
       </main>
       <footer>
