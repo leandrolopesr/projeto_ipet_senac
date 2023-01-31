@@ -1,6 +1,6 @@
 @media screen and (max-width:490px) {
     
-    .card{
+    .cartao{
         background-color: #E8ECF4;
         width: 95%;
         margin: 3%;
@@ -23,7 +23,7 @@
     
      }
     
-     .card h1 {
+     .cartao h1 {
         font-size: 40pt;
         padding-bottom: 2%;
         padding-left: 15%;
