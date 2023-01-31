@@ -1,15 +1,15 @@
 .slider{
     margin: 0 auto;
-    width: 100%;
-    height: 600px;
+    width: 1024px;
+    height: 370px;
     overflow: hidden;
     border-radius: 3%;
    margin-top: 10%;
    margin-bottom: 10%;
 }
 .slides{
-    width: 400%;
-    height: 650px;
+    width: 370%;
+    height: 370px;
     display: flex;
 
 }
@@ -21,18 +21,17 @@
     position: relative;
 }
 .slide img{
-    width: 100%;
-    height: 650px;
+    width: 1024px;
+    
     
 
 }
 .manual-navigation{
     position: absolute;
-    width: 100%;
-    margin-top: -65px;
+    width: 1024px;
+    margin-top: -20px;
     display: flex;
     justify-content: center;
-    
 }
 .manual-btn{
     border: 2px solid #000;
@@ -48,7 +47,7 @@ margin-right: 20px;
 
 }
 .manual-btn:hover{
-    background-color: black;
+    background-color: #fff;
 }
 #radio1:checked ~.first{
     margin-left: 0;
@@ -72,8 +71,8 @@ margin-right: 20px;
 }
 .navigation-auto{
     position: absolute;
-    width: 100%;
-    margin-top: 585px;
+    width: 1024px;
+    margin-top: 350px;
     display: flex;
     justify-content: center;
 }
@@ -95,3 +94,4 @@ background-color:#fff;
 #radio4:checked~.navigation-auto .auto-btn4{
     background-color:#fff;
 }
+

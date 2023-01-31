@@ -1,0 +1,102 @@
+.card{
+    background-color:#613387; 
+    width: 65%;
+    height: 70%;
+    
+    
+}
+
+.foto{
+    width: 30%;
+    padding: 17px;
+    border-radius: 44px;
+    float: left;
+    min-width: 25%;
+    height: 30%;
+    
+    
+
+}
+
+.foto1{
+    width: 30%;
+    padding: 17px;
+    border-radius: 44px;
+    float: right;
+    min-width: 25%;
+    height: 30%;
+    
+
+}
+
+
+.center1{
+    display: flex;
+    justify-content: center;
+}
+
+.center2{
+    display: flex;
+    justify-content: center;
+}
+
+.card   .subtext1{
+    color: white;
+    padding-top: 35px;
+    
+    margin-left: none;
+
+}
+
+.card .text1{
+    color: #fff;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    
+}
+
+.card .subtext2{
+   color: #fff;
+   
+   padding-left: 12px;
+   padding-top: 35px;
+}
+
+.card .text2{
+    color: #fff;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 740px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .foto{
+        width: 90%;
+       margin:auto ;
+       
+    }
+
+      .card .subtext1{
+        padding-left: 15px;
+        padding-top: 10px ;
+    }
+
+    .card .subtext2{
+        padding-left: 15px;
+        padding-top: 10px ;
+    }
+
+    .foto1{
+        width: 90%;
+       margin:auto;
+    }
+    
+}

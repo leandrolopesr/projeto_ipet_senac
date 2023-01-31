@@ -14,6 +14,8 @@
 @import url('./main/help/help_img.css');
 @import url('./main/main_carrosel/main.css');
 @import url('./footer/footer.css');
+@import url('./main/qm_somos/qm_somos.css');
+@import url('./main/index/index.css');
 
 * {
     margin: 0;
