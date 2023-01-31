@@ -16,6 +16,7 @@
 @import url('./footer/footer.css');
 @import url('./main/qm_somos/qm_somos.css');
 @import url('./main/index/index.css');
+@import url('./main/help/help900.css');
 
 * {
     margin: 0;
