@@ -15,7 +15,7 @@
       
       .button-modal2{
           margin-top: 15%;
-          margin-left: 10%;
+          margin-left: 10px;
           padding: 10px 60px;
           border: none;
           border-radius: 0.25rem;
@@ -80,7 +80,7 @@
         .modal-content h1 {
           font-size: 30pt;
           color:#613387;
-          padding-left: 12%;
+          padding-left: 5%;
           padding-bottom: 5%;
           margin-top: 5%;
         }
@@ -93,7 +93,8 @@
       
         .modal-content .icon{
           width: 5%;
-          margin: 8% 5% 0% 1%;
+          margin: 8% 3% 0% 1%;
+          padding-left: 15px;
         }
       
         .modal-content a{

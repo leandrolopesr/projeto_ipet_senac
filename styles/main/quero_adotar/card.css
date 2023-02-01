@@ -27,12 +27,12 @@
     .cartao h1 {
         font-size: 2em;
         padding-bottom: 2%;
-        padding-left: 15%;
+        padding-left: 10%;
         color: #613387;
     }
     .icon{
         padding-bottom: 2%;
-        padding-left: 15%;
+        padding-left: 10%;
         color: #3A3B40;
         width: 6%;
     }
@@ -43,7 +43,7 @@
     }
 
     .conteudo span {
-       
+       font-size: 10pt;
         color:#9A41A6;
 
     }

@@ -1,7 +1,7 @@
 @media screen and (min-width: 1024px){
 .button-modal{
   margin-top: 0.6rem;
-  margin-left: 15%;
+  margin-left: 10%;
   padding: 12px 30px;
   border: none;
   border-radius: 0.25rem;
@@ -10,6 +10,14 @@
   font-size: 1rem;
   background-color: #9A41A6;
   color: white;
+
+}
+
+
+.button-modal:hover{
+
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 14px 0 rgba(0,0,0,0.19);
+
 }
 
 .button-modal2{
