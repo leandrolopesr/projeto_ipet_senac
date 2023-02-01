@@ -4,12 +4,12 @@ document.getElementById("radio1").checked = true;
 setInterval( function(){
 nextImage();
 
-}, 5000) //velocidade do Banner    
+}, 50000) //velocidade do Banner    
 
  function nextImage(){
 carrosel++;
 
-if(carrosel>4){
+if(carrosel>3){
     carrosel =1;
 }
 

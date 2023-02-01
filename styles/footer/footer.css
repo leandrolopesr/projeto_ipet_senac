@@ -1,8 +1,13 @@
-   height: auto;
-    height: 200px;
-    background: #8768a6;
+footer{
     width: 100vw;
+}
+
+.footer{
+ 
+    background: #8768a6;
+    
     color: #fff;
+   
 }
 .footer-content{
     display: flex;
@@ -21,7 +26,7 @@
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
-    font-size: 14px;
+    font-size: 1em;
 }
 .socials{
     list-style: none;
@@ -49,7 +54,7 @@
 
 .footer-bottom{
     background: #61378c;
-    width: 100vw;
+  
     padding: 20px 0;
     text-align: center;
 }

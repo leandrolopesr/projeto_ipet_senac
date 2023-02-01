@@ -1,140 +1,177 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IPET</title>
-    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/reset.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-
-</head>
-<body>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
     <header class="header">
+      <nav>
+        <a href="#"
+          ><img
+            src="./assets/Logo.PNG"
+            width="140"
+            height="55"
+            alt="logo IPET"
+            class="animate__animated animate__fadeInDown img_logo"
+        /></a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+          <div class="line4"></div>
+        </div>
 
-        <nav >
-    
-        <a href="#"><img src="./assets/Logo.PNG" width="140" height="55" alt="logo IPET" class="animate__animated animate__fadeInDown img_logo"></a>
-          <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div> 
-            <div class="line4"></div>
+        <ul class="nav-list">
+          <li class="animate__animated animate__fadeInDown">
+            <a class="itensnav" href="qm_somos.html">Quem Somos</a>
+          </li>
+          <li class="animate__animated animate__fadeInDown">
+            <a class="itensnav" href="help.html">Quero Ajudar</a>
+          </li>
+          <li class="animate__animated animate__fadeInDown">
+            <a class="itensnav" href="quero_adotar.html">Quero Adotar</a>
+          </li>
+          <li class="animate__animated animate__fadeInDown">
+            <a class="itensnav" href="doar_pet.html">Doar Pet</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="slider">
+        <div class="slides">
+          <!--os input ficarão aqui-->
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+         
+
+          <div class="slide first">
+            <a href="quero_adotar.html"
+              ><img src="./assets/main/imagens_do_index/banner-2.webp"
+            /></a>
           </div>
-
-          <ul class="nav-list ">
-            <li class="animate__animated animate__fadeInDown"><a class="itensnav" href="qm_somos.html">Quem Somos</a></li>
-            <li class="animate__animated animate__fadeInDown"><a class="itensnav" href="help.html">Quero Ajudar</a></li>
-            <li class="animate__animated animate__fadeInDown"><a class="itensnav" href="quero_adotar.html">Quero Adotar</a></li>
-            <li class="animate__animated animate__fadeInDown"><a class="itensnav" href="doar_pet.html">Doar Pet</a></li>
-          </ul>
-
-        </nav>
-      </header>
-      <main>
-        <div class="slider">
-            
-            <div class="slides">
-                <!--os input ficarão aqui-->    
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
-        
-                <div class="slide first">
-      
-                <img src="./assets/main/image/cat.jpg">
-                  </div>
-            <div class="slide">
-      
-                <img src="./assets/main/image/dog-1532627_960_720.png">
-                
-                </div>
-                <div class="slide">
-      
-            <img src="./assets/main/image/dogdog.jpg">
-                    
-            </div>
           <div class="slide">
-      
-        <img src="#">
-                        
+            <a href="help.html"
+              ><img src="./assets/main/imagens_do_index/banner-3.webp"
+            /></a>
           </div>
-      
-          <div class="navigation-auto">
-      
-        <div class="auto-btn1"></div>
-        <div class="auto-btn2"></div>
-        <div class="auto-btn3"></div>
-        <div class="auto-btn4"></div>
-      
+          <div class="slide">
+            <a href="quero_adotar.html"
+              ><img src="./assets/main/imagens_do_index/banner-4.webp"
+            /></a>
           </div>
-                            
-                        
-        </div>
-      
-      
-        <div class="manual-navigation">
-      
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-        </div>
-            </div>
 
-            <div class="center1">
-              <div class="card">
-                <img src="./assets/main/imagens_do_index/adotar-cão-adulto-862x574.jpg" class="foto">
-                <h1 class="subtext1">O que considerar antes de adotar um pet?</h1>
-                <p class="text1">Atualmente, no Brasil, milhares de cães e gatos são abandonados por dia. Ao adotar um animal, que muitas vezes foi maltratado ou abandonado, você está dando ao pet um recomeço e uma oportunidade para ele ser amado.  
-                  Muitas pessoas não percebem, mas os pets também têm sentimentos assim como nós, seres humanos. Eles sentem dor, tristeza, solidão e alegria. Assim, 
-                  adotá-los é um ato de amor.
-                  Antes de tomar a decisão, no entanto, é importante algum planejamento. Tenha certeza de que você realmente quer o novo amigo, para não mudar de ideia e devolvê-lo, caso ele não fique do tamanho que você espera ou tenha um comportamento diferente.</p>
-              </div>
-            </div>
-    
-            <div class="center2">
-              <div class="card">
-                <img src="./assets/main/imagens_do_index/bigodes-gato-862x575.jpg" class="foto1">
-                <h1 class="subtext2">Qual a importancia de adotar um pet?</h1>
-                <p class="text2">A adoção salva a vida de milhares de bichinhos que, na maioria das vezes, foram resgatados das ruas ou de tutores violentos. Além disso, adotar um pet é uma boa opção para quem mora sozinho ou se sente só.
-                  Ainda que seja um filhote, adotar não vai fazer bem apenas para o animal, já que essa atitude é uma possibilidade do tutor ter 
-                  um novo amigo, diminuir o estresse e problemas psicológicos e ser mais feliz. <br>
-                  Os animais, principalmente os cachorros, são bichos fiéis e leais, que gostam de acompanhar o tutor aonde ele for e de estar por perto nos momentos tristes e felizes.
-                  Além disso, conviver com um animal incentiva a socialização, já que ele ajuda a pessoa a se tornar mais ativa e participativa da vida comunitária.</p>
-              </div>
-            </div>
-      
-            </main>
-      
-            <footer>
-              <div class="footer-content">
-                <h3>code opacity</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
-                <ul class="socials">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                </ul>
-            </div>
-            <div class="footer-bottom">
-                <p>copyright &copy;2023 codeOpacity. designed by <span>projetoSenac</span></p>
-            </div>
-      
-      
-      
-              
-            </footer>
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
+        </div>
+
+        <div class="manual-navigation">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
         
+        </div>
+      </div>
+      
+    <div class="button">
+      <a href="quero_adotar.html" class="butto1">Quero Adotar</a>
+      <a href="doar_pet.html" class="butto1 btn">Quero Doar</a>
+    </div>
      
 
-      <script src="./scripts/navmenu.js"></script>
-      <script src="./scripts/main.js"></script>
-</body>
+      <div class="center1">
+        <div class="card">
+          <img
+            src="./assets/main/imagens_do_index/gato.svg"
+            class="foto"
+          />
+          <h1 class="subtext1">O que considerar antes de adotar um pet?</h1>
+          <p class="text1">
+            Atualmente, no Brasil, milhares de cães e gatos são abandonados por
+            dia. Ao adotar um animal, que muitas vezes foi maltratado ou
+            abandonado, você está dando ao pet um recomeço e uma oportunidade
+            para ele ser amado. Muitas pessoas não percebem, mas os pets também
+            têm sentimentos assim como nós, seres humanos. Eles sentem dor,
+            tristeza, solidão e alegria. Assim, adotá-los é um ato de amor.
+            Antes de tomar a decisão, no entanto, é importante algum
+            planejamento. Tenha certeza de que você realmente quer o novo amigo,
+            para não mudar de ideia e devolvê-lo, caso ele não fique do tamanho
+            que você espera ou tenha um comportamento diferente.
+          </p>
+        </div>
+      </div>
+
+      <div class="center2">
+        <div class="card">
+          <img
+            src="./assets/main/imagens_do_index/GreenDogwithBone.svg"
+            class="foto1"
+          />
+          <h1 class="subtext2">Qual a importancia de adotar um pet?</h1>
+          <p class="text2">
+            A adoção salva a vida de milhares de bichinhos que, na maioria das
+            vezes, foram resgatados das ruas ou de tutores violentos. Além
+            disso, adotar um pet é uma boa opção para quem mora sozinho ou se
+            sente só. Ainda que seja um filhote, adotar não vai fazer bem apenas
+            para o animal, já que essa atitude é uma possibilidade do tutor ter
+            um novo amigo, diminuir o estresse e problemas psicológicos e ser
+            mais feliz. <br />
+            Os animais, principalmente os cachorros, são bichos fiéis e leais,
+            que gostam de acompanhar o tutor aonde ele for e de estar por perto
+            nos momentos tristes e felizes. Além disso, conviver com um animal
+            incentiva a socialização, já que ele ajuda a pessoa a se tornar mais
+            ativa e participativa da vida comunitária.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <h3>code opacity</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste
+          corrupti doloribus odio sed!
+        </p>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-linkedin-square"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          copyright &copy;2023 codeOpacity. designed by
+          <span>projetoSenac</span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="./scripts/navmenu.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
 </html>
