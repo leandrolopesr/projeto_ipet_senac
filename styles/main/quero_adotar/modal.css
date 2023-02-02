@@ -21,9 +21,8 @@
 }
 
 .button-modal2{
-    margin-top: 15%;
-    margin-left: 25%;
-    padding: 15px 80px;
+    margin-top: 10%;
+    padding: 5px 40px;
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
@@ -57,13 +56,13 @@
   .modal-content {
     background-color: #E8ECF4; /* cor de fundo branca */
     margin: 15% auto; /* margem centralizada */
-    padding: 2%; /* espaçamento interno */
+    padding: 3% 0%; /* espaçamento interno */
     width: 50%; /* largura máxima */
     border-radius: 15px;
     display: flex;
     float: left;
     text-decoration: none;
-    text-align: center;
+    justify-content: space-around;
 
   }
 
@@ -83,28 +82,34 @@
 
   .modal-content img{
 
-    width: 130%;
-    max-width: 1800px;
+    width: 300px;
 
   }
 
   .modal-content h1 {
     font-size: 30pt;
     color:#613387;
-    padding-left: 25%;
+    padding-left: 0;
     padding-bottom: 5%;
-    margin-top: 25%;
+    margin-top: 5%;
   }
 
   .modal-content p {
     color: #737280;
     font-size: 10pt;
-    padding-left: 25%;
+    padding-left: 0;
+    padding-bottom: 10px;
   }
 
-  .modal-content .icon{
-    width: 5%;
-    margin: 5% 5% 0% 20%;
+  .mobile-icon{
+    padding: 15px 0px 10px 5px;
+
+  }
+
+  .mobile-icon img {
+
+    width: 8%;
+
   }
 
   .modal-content a{
