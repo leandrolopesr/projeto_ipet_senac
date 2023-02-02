@@ -1,6 +1,6 @@
 @media screen and (max-width: 1023px) and (min-width: 441px) {
 
-    .text {
+    .text, select  {
         width: 95%;
         padding: 12px 20px;
         margin: 8px 5px;
@@ -25,6 +25,17 @@
         font-weight: bold;
       
       }
+
+      input[type=radio]{
+        margin: 12px 15px;
+      }
+      
+      label[for=macho], label[for=femea]{
+        font-size: 12pt;
+        color: #613387;
+        font-weight: normal;
+      }
+      
       
       
       

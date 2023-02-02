@@ -1,5 +1,5 @@
-.text {
-  width: 400px;
+.text, select {
+  width: 600px;
   padding: 12px 20px;
   margin: 8px 10px;
   display: inline-block;
@@ -22,6 +22,17 @@
   font-weight: bold;
 
 }
+
+input[type=radio]{
+  margin: 12px 15px;
+}
+
+label[for=macho], label[for=femea]{
+  font-size: 12pt;
+  color: #613387;
+  font-weight: normal;
+}
+
 
 
 
