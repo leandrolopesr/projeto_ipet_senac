@@ -1,7 +1,7 @@
 @media screen and (min-width: 1024px){
 .button-modal{
   margin-top: 0.6rem;
-  margin-left: 10%;
+  margin-left: 5%;
   padding: 12px 30px;
   border: none;
   border-radius: 0.25rem;
@@ -102,7 +102,7 @@
 
   .modal-content .icon{
     width: 5%;
-    margin: 5% 0% 0% 10%;
+    margin: 5% 0% 0% 15%;
   }
 
   .modal-content a{

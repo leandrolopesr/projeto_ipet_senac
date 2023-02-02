@@ -2,7 +2,7 @@
 
     .button-modal{
         margin-top: 0.6rem;
-        margin-left: 12%;
+        margin-left: 3%;
         padding: 12px 30px;
         border: none;
         border-radius: 0.25rem;
@@ -13,10 +13,16 @@
         color: white;
       }
       
+      .button-modal:hover{
+
+        box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 14px 0 rgba(0,0,0,0.19);
+      
+      }
+
       .button-modal2{
           margin-top: 15%;
-          margin-left: 10px;
-          padding: 10px 60px;
+          margin-left: 10%;
+          padding: 5px 30px;
           border: none;
           border-radius: 0.25rem;
           cursor: pointer;
@@ -80,7 +86,7 @@
         .modal-content h1 {
           font-size: 30pt;
           color:#613387;
-          padding-left: 5%;
+          padding-left: 12%;
           padding-bottom: 5%;
           margin-top: 5%;
         }
@@ -93,7 +99,7 @@
       
         .modal-content .icon{
           width: 5%;
-          margin: 8% 3% 0% 1%;
+          margin: 8% 3% 0% 5%;
           padding-left: 15px;
         }
       
