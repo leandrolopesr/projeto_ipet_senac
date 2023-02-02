@@ -21,7 +21,7 @@
       
       .button-modal2{
           margin-top: 15%;
-          margin-left: 15%;
+          margin-left: 7%;
           padding: 10px 60px;
           border: none;
           border-radius: 0.25rem;
@@ -47,7 +47,7 @@
           height: 100%; /* ocupa toda a altura da tela */
           overflow: auto; /* scroll se o conteúdo for maior */
           background-color: rgba(0,0,0,0.4); /* cor de fundo semi-transparente */
-          padding-left: 25%;
+          padding-left: 15%;
           
         }
         
@@ -60,15 +60,11 @@
           display: flex;
           flex-direction: column;
           text-decoration: none;
+          text-align: center;
       
         }
       
-        .modal-content .conteudo {
-      
-          padding: 0px 5%;
-      
-        }
-      
+
         .modal-content .conteudo span{
       
           color: #9A41A6;
@@ -86,7 +82,7 @@
         .modal-content h1 {
           font-size: 30pt;
           color:#613387;
-          padding-left: 25%;
+          padding-left: 5%;
           padding-bottom: 5%;
           margin-top: 5%;
         }
@@ -94,12 +90,13 @@
         .modal-content p {
           color: #737280;
           font-size: 12pt;
-          padding-left: 20%;
+          padding-left: 5%;
+
         }
       
         .modal-content .icon{
           width: 5%;
-          margin: 8% 5% 0% 10%;
+          margin: 8% 4% 0% 8%;
         }
       
         .modal-content a{

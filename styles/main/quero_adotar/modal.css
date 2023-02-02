@@ -50,6 +50,7 @@
     overflow: auto; /* scroll se o conteúdo for maior */
     background-color: rgba(0,0,0,0.4); /* cor de fundo semi-transparente */
     padding-left: 25%;
+
     
   }
   
@@ -62,6 +63,7 @@
     display: flex;
     float: left;
     text-decoration: none;
+    text-align: center;
 
   }
 
@@ -102,7 +104,7 @@
 
   .modal-content .icon{
     width: 5%;
-    margin: 5% 0% 0% 15%;
+    margin: 5% 5% 0% 20%;
   }
 
   .modal-content a{
