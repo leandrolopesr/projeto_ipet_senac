@@ -51,37 +51,50 @@
                           </tr>
   
                           <tr>
-                          <td><label for="lname">Sexo:  </label></td>
-                          <td><input class="text" type="text" id="sexo" name="sexo" placeholder="Macho ou Fêmea?"></td>
+                          <td><label for="">Sexo:  </label></td>
+                          <td>
+                            <input type="radio" name="macho" id="macho"> <label for="macho">Macho</label>
+                            <input type="radio" name="femea" id="femea"><label for="femea">Fêmea</label>
+                          </td>
                           </tr>
   
                           <tr>
-                          <td><label for="lname">Idade:  </label></td>
+                          <td><label for="idade_ani">Idade:  </label></td>
                           <td><input class="text" type="text" id="idade_ani" name="idade_ani" placeholder="Qual a idade do Pet?"></td>
                           </tr>
   
                           <tr>
-                          <td><label for="lname">Qual seu Pet?  </label></td>
-                          <td><input class="text" type="text" id="tipo_ani" name="tipo_ani" placeholder="Ex: Cachorro, Gato e etc.."></td>
+                          <td><label for="tipo_ani">Qual seu Pet?  </label></td>
+                          <td>
+                            <select name="tipo_ani">
+
+                              <option value="">Selecione...</option>
+                              <option value="cachorro">Cachorro</option>
+                              <option value="gato">Gato</option>
+                              <option value="outros">Outros</option>
+
+                            </select>
+                          
+                          </td>
                           </tr>
   
                           <tr>
-                          <td><label for="lname">Endereço:  </label></td>
-                          <td><input class="text" type="text" id="address" name="address" placeholder="Endereço do Pet.."></td>
+                          <td><label for="endereco">Endereço:  </label></td>
+                          <td><input class="text" type="text" id="endereco" name="endereco" placeholder="Endereço do Pet.."></td>
                           </tr>    
   
                           <tr>
-                          <td><label for="lname">Nome do Doador:  </label></td>
+                          <td><label for="nome_dono">Nome do Doador:  </label></td>
                           <td><input class="text" type="text" id="nome_dono" name="nome_dono" placeholder="Seu nome.."></td>
                           </tr>
   
                           <tr>
-                          <td><label for="lname">Telefone:  </label></td>
+                          <td><label for="tel">Telefone:  </label></td>
                           <td><input class="text" type="text" id="tel" name="tel" placeholder="Telefone para contato.."></td>
                           </tr>
                           
                           <tr>
-                          <td><label for="lname">Fotos do Pet:</label></td>
+                          <td><label for="nome_img">Fotos do Pet:</label></td>
                           <td><input class="file" type="file" id="img" name="nome_img"></td>
                           </tr>                                                                                
                         
