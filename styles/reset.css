@@ -16,24 +16,30 @@
 @import url('./footer/footer.css');
 @import url('./main/qm_somos/qm_somos.css');
 @import url('./main/index/index.css');
+@import url('./main/help/help900.css');
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
    
 }
 
 body{
     background-color: #FFF4F4;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 
 
 a {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -126,7 +132,7 @@ video {
     padding: 0;
     border: 0;
     font-size: 100%;
- 
+    font-family: 'Roboto', sans-serif;
     vertical-align: baseline;
 }
 
@@ -134,12 +140,13 @@ video {
 
 body {
     line-height: 1;
- 
+    font-family: 'Roboto', sans-serif;
 }
 
 ol,
 ul,li {
     list-style: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 blockquote,
@@ -153,10 +160,12 @@ q:before,
 q:after {
     content: '';
     content: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 table {
     border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
     border-spacing: 0;
 }
 
