@@ -18,19 +18,17 @@
 @import url('./main/index/index.css');
 @import url('./main/help/help900.css');
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
    
 }
 
 body{
     background-color: #FFF4F4;
     font-family: 'Roboto', sans-serif;
+   
 }
 
 
@@ -38,6 +36,7 @@ body{
 
 a {
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     text-decoration: none;
     
 }

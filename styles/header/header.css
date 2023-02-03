@@ -45,7 +45,7 @@ header{
 
 .butto1:before {
     content: '';
-    background: linear-gradient(45deg, #613387, #ce1f19, #2f5edd, #ad4312, #feffff, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: linear-gradient(45deg, #613387, #613387, #2f5edd, #613387, #feffff,#613387, #7a00ff, #ff00c8, #613387);
     position: absolute;
     top: -2px;
     left:-2px;

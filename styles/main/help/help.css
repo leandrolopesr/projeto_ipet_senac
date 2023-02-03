@@ -6,7 +6,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #613387;
 
  
 
@@ -27,10 +26,10 @@
 }
 
 .title_help{
-    
+    font-weight: 700;
     color: #613387;
     font-size: 34px;
-    margin-bottom: 50px;
+    padding-bottom: 20px;
    
 }
 
@@ -38,6 +37,8 @@
 .paragraf{
     color: #737280;
     margin-bottom: 70px;
+    line-height: 20px;
+
 }
 
 

@@ -22,7 +22,7 @@
       
         color: #613387;
         font-size: 10pt;
-        font-weight: bold;
+        font-weight: 900;
 
       
       }
@@ -34,7 +34,7 @@
       label[for=macho], label[for=femea]{
         font-size: 12pt;
         color: #613387;
-        font-weight: normal;
+        font-weight: 700;
       }
       
       .button3 {

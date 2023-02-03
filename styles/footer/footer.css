@@ -1,7 +1,5 @@
 footer{
-   
    height: auto;
-    height: 200px;
     background: #8768a6;
     width: 100vw;
     color: #fff;
@@ -30,14 +28,14 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    padding: 30px;
 }
 .socials li{
     margin: 0 30px;
 }
 .socials a{
     text-decoration: none;
-    color: black;
+    color: rgb(243, 242, 242);
 
 }
 .socials a i{
@@ -46,7 +44,7 @@ footer{
 
 }
 .socials a:hover i{
-    color: #f2ebeb;
+    color: #1a1927;
 }
 
 .footer-bottom{

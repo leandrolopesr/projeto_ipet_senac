@@ -24,11 +24,16 @@
 .titulo {
     color: #613387;
     font-size: 1.8em;
+    font-weight: 400;
     
 }
 
-p{
-    color:#737280 ;
+.p{
+    color:#737280;
+    padding: 5px;
+    line-break: auto;
+    line-height: 18px;
+
 }
 
 
@@ -47,6 +52,16 @@ p{
 
 }
 
+.centralizacao{
+    
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+
+
 @media screen and (max-width: 980px){
 
     .quadrado{
@@ -55,16 +70,21 @@ p{
     }
 }
 
+
 .centralizacao{
     
     width: 100%;
    display: flex;
    justify-content: center;
    align-items: center;
+   padding-top: 50px;
 }
+
+
 
 .titulo{
     padding-bottom: 20px;
+    font-weight: 900;
 }
 
 @media screen and (max-width: 1050px){
